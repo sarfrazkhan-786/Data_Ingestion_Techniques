@@ -1,5 +1,5 @@
 sqoop import  --connect 'jdbc:sqlserver://$Hostname;database=db_name' \
---username 'lims_user_ro' --password 'rolimsuser' \
+--username 'user_name' --password 'passwd' \
 --table 'table_name' \
 --hive-delims-replacement "anything" \
 --null-string '\\N' --null-non-string '\\N' \
